@@ -1358,10 +1358,10 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					min-width: 9rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 1.5rem 0 1.5rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1659,3 +1659,34 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* ----------------------------------------------------------------------------------------- */
+
+		.tooltip {
+			position: relative;
+			display: inline-block;
+		  }
+		  
+		  .tooltip .tooltiptext {
+			visibility: hidden;
+			width: 120px;
+			background-color: rgb(53, 53, 64);
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 5px 0;
+			position: absolute;
+			z-index: 1;
+			bottom: 100%;
+			left: 50%;
+			margin-left: -60px;
+			
+			/* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+			opacity: 0;
+			transition: opacity 1s;
+		  }
+		  
+		  .tooltip:hover .tooltiptext {
+			visibility: visible;
+			opacity: 1;
+		  }
