@@ -1691,9 +1691,24 @@ input, select, textarea {
 			opacity: 1;
 		  }
 
-#hack112 img {
-	width:50%;
-	margin:auto;
-	display:block;
+#hack1121 img {
+	width:45%;
+	height:20%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	/* margin:auto; */
+	float:left;
+	position:relative;
+}
+
+#hack1122 img {
+	width:45%;
+	height:20%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	/* margin:auto; */
+	float:right;
 	position:relative;
 }
