@@ -1690,3 +1690,10 @@ input, select, textarea {
 			visibility: visible;
 			opacity: 1;
 		  }
+
+#hack112 img {
+	width:50%;
+	margin:auto;
+	display:block;
+	position:relative;
+}
