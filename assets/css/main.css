@@ -1708,3 +1708,7 @@ input, select, textarea {
 	float:right;
 	position:relative;
 }
+
+.youtube {
+	width:100%;
+}
