@@ -1669,7 +1669,7 @@ input, select, textarea {
 		  
 		  .tooltip .tooltiptext {
 			visibility: hidden;
-			width: 120px;
+			width: 25em;
 			background-color: rgb(53, 53, 64);
 			color: #fff;
 			text-align: center;
